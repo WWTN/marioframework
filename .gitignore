@@ -1,0 +1,7 @@
+*.suo
+MarioFramework/Library/
+MarioFramework/Temp/
+MarioFramework/MarioFramework.CSharp.Editor.csproj
+MarioFramework/MarioFramework.CSharp.csproj
+MarioFramework/MarioFramework.sln
+MarioFramework/MarioFramework.userprefs
