@@ -16172,6 +16172,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 621438353}
   m_Mesh: {fileID: 4300132, guid: 20e3bf8501f48604a8c338a2b34964b6, type: 3}
+--- !u!1 &640303210 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100048, guid: c38497a0f5b1e224b92c0cba95e1b504, type: 3}
+  m_PrefabInternal: {fileID: 1076825548}
+--- !u!136 &640303212
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640303210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &640303213
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640303210}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &686654381
 GameObject:
   m_ObjectHideFlags: 0
@@ -17482,7 +17514,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: c38497a0f5b1e224b92c0cba95e1b504, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.09623413
+      value: 0.096234106
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: c38497a0f5b1e224b92c0cba95e1b504, type: 3}
       propertyPath: m_LocalRotation.z
