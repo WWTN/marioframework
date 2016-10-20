@@ -15366,31 +15366,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.00062561
+      value: -0.98199654
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -7.94108868
+      value: -9.565372
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.74701881
+      value: -7.026026
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalRotation.x
-      value: .0908222944
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -.687448084
+      value: 0.70465684
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalRotation.z
-      value: .0872966945
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .715224326
+      value: -0.70954835
       objectReference: {fileID: 0}
     - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: m_RootOrder
@@ -15406,6 +15406,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8258808, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434870, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -15438,7 +15458,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400026, guid: 233683c473908064ca4765825a72b660, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 457473604}
-  m_LocalRotation: {x: -0.7071068, y: 0.00000014018711, z: 0.00000014018711, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000012397887, y: 0, z: -0.0010021926}
   m_LocalScale: {x: 14.431062, y: 14.431057, z: 14.431058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18294,6 +18314,32 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1265797215}
   m_Mesh: {fileID: 4300042, guid: 20e3bf8501f48604a8c338a2b34964b6, type: 3}
+--- !u!1 &1265863287 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 148210, guid: 178017b60ed5cea4f948a009ef82f1ca, type: 2}
+  m_PrefabInternal: {fileID: 427855988}
+--- !u!114 &1265863295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1265863287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d3968294210ba4a9d2bb96dfa74a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 0}
+  m_AutoTargetPlayer: 0
+  m_UpdateType: 0
+  m_MoveSpeed: 3
+  m_TurnSpeed: 1
+  m_RollSpeed: 0.2
+  m_FollowVelocity: 0
+  m_FollowTilt: 1
+  m_SpinTurnLimit: 10
+  m_TargetVelocityLowerLimit: 4
+  m_SmoothTurnTime: 0.2
 --- !u!1 &1273562156
 GameObject:
   m_ObjectHideFlags: 0
