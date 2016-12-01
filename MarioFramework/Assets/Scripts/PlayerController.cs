@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 inAirVelocity = Vector3.zero;
 
+   private ParticleSystem dustParticles = null;
+
     private float moveSpeed = 0.0f;
     private float verticalSpeed = 0.0f;
     private bool isJumping = false;
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         anim = GetComponent<Animation>();
+        dustParticles = GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
